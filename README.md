@@ -1,5 +1,9 @@
 # File-based-key-value-datastore
 
+I used python for implementing the data store
+
+# Find the python code and how to access in the view code section
+
 A file-based key-value data store that supports the basic CRD (create, read, and delete)
 operations.
 
