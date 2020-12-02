@@ -28,6 +28,3 @@ unexpected ways or breaches any limits.
 given time.
 3. A client process is allowed to access the data store using multiple threads, if it desires to.
 The data store must therefore be thread-safe.
-4. The client will bear as little memory costs as possible to use this data store, while
-deriving maximum performance with respect to response times for accessing the data
-store.
