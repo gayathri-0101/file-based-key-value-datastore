@@ -1,10 +1,10 @@
-# file-based-key-value-datastore
+# File-based-key-value-datastore
 
 A file-based key-value data store that supports the basic CRD (create, read, and delete)
 operations.
 
 
-The data store will support the following functional requirements:
+# The data store will support the following functional requirements:
 
 1. It can be initialized using an optional file path . If one is not provided, it will reliably
 create itself in a reasonable location on the laptop at the path where we store the python code .
@@ -22,7 +22,7 @@ the key will no longer be available for Read or Delete operations.
 unexpected ways or breaches any limits.
 
 
-The data store will also support the following non-functional requirements.
+# The data store will also support the following non-functional requirements.
 1. Restrictions in the size of the file storing data must never exceed 1GB.
 2. More than one client process are not allowed to use the same file as a data store at any
 given time.
